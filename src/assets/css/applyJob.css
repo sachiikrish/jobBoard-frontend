@@ -1,0 +1,70 @@
+.apply-detailsPage .body {
+  display: flex;
+  justify-content: center;
+  height: max-content;
+  margin-top: 20px;
+}
+
+.apply-detailsPage .body .jobsContainer {
+  width: 80%; /* Make the card width smaller to look more centered */
+  border: #4e73df solid 0.5px;
+  border-radius: 5px;
+  padding: 5px 5px;
+  background-color: rgb(225, 217, 217);
+}
+.heading {
+  padding: 10px;
+}
+.heading > p {
+  text-align: center;
+}
+.detailsContainer {
+  margin: 10px;
+  height: max-content;
+}
+.detailsContainer div {
+  margin-bottom: 10px;
+}
+.detailsContainer > div span {
+  margin-left: 5px;
+}
+box {
+  font-size: small;
+}
+.applyButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.applyButton {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.apply-now-btn {
+  background: linear-gradient(
+    90deg,
+    #4ec2df,
+    #56aaea
+  ); /* Gradient background */
+  color: white; /* White text color */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a raised effect */
+}
+
+.apply-now-btn:hover {
+  background: linear-gradient(
+    90deg,
+    #2e59d9,
+    #4e73df
+  ); /* Reverse gradient on hover */
+  transform: translateY(-4px); /* Slightly raise the button */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
