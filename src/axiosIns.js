@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an axios instance
 const axiosIns = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: process.env.REACT_APP_BASE_URL,
   withCredentials: true, // Ensure credentials (cookies) are sent with the request
 });
 
